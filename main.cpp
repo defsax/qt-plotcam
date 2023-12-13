@@ -1,6 +1,6 @@
 #include <QApplication>
 #include <QMainWindow>
-#include "camera.cpp"
+#include "./src/apps/camera/camera.cpp"
 
 int main(int argc, char *argv[]){
   QApplication app(argc, argv);

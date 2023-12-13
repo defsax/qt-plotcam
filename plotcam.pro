@@ -7,5 +7,7 @@ greaterThan(QT_MAJOR_VERSION, 5): QT += widgets
 
 INCLUDE_PATH += .
 
-HEADERS += camera.h
-SOURCES += main.cpp camera.cpp
+HEADERS += ./src/apps/camera/camera.h
+
+SOURCES += main.cpp \
+  ./src/apps/camera/camera.cpp
